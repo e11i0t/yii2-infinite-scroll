@@ -26,10 +26,16 @@ Options
 ##### $autoStart `true`;
 ##### $containerSelector `.list-view`;
 ##### $itemSelector `.item`;
-##### $paginationSelector `.pagination`;
+##### $navSelector `.pagination`;
 ##### $nextSelector `.pagination .next a:first`;
+##### $wrapperSelector `.list-view`;
 ##### $bufferPx `40`;
 ##### $pjaxContainer `null`;
+##### $eventOnAppended `function(arrayOfNewElems) { }`;
+##### $spinnerTemplate `<em>Loading the next set of posts...</em>`;
+##### $finishedMsg;
+##### $batch `0`;
+
 
 Usage example
 -------------
