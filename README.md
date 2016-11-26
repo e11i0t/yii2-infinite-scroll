@@ -6,8 +6,20 @@ Installation
 ------------
 
 ```
-php composer.phar require --prefer-dist "darkcs/yii2-infinite-scroll" "*"
+php composer.phar require --prefer-dist "darkcs/yii2-infinite-scroll" "dev-master"
 ```
+
+And add to the composer.json
+
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/e11i0t/yii2-infinite-scroll"
+    }
+],
+```
+
 
 Options
 -------
